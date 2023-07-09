@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+
+        <form action="">
+            <div class="form-group">
+                <select id="category">
+                    <!-- <option value="">1</option>
+                    <option value="">2</option>
+                    <option value="">3</option>
+                    <option value="">4</option>
+                    <option value="">5</option> -->
+                </select>
+            </div>
+            <div>
+                <label for="title">Product title</label>
+                <input type="text" id="title">
+            </div>
+            <div>
+                <label for="price">Product price</label>
+                <input type="text" id="price">
+            </div>
+            <div>
+                <label for="description">Product description</label>
+                <textarea type="text" id="description"></textarea>
+            </div>
+            <div>
+                <label for="image">Productimage</label>
+                <input type="file" id="image">
+            </div>
+           
+            <div>
+                <input type="button" class="addCategoryButton" value="Add new product" onclick="add()">
+            </div>
+        </form>
+    </div>
+    <script src="./js/addProduct.js"></script>
+</body>
+</html>

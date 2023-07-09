@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <div class="logo">
+                <a href="/">
+
+                    <img src="./admin/img/logo.png" alt="">
+                </a>
+            </div>
+            <div >
+                <ul id="categoriesSection"></ul>
+            </div>
+        </div>
+        <div class="cart">
+            <a href="#" class="cartIcon" onclick="showCart()">
+                <i class="fa fa-shopping-cart"></i>
+            </a>
+            <div id="cartBox">
+                <p id="totalBox"></p>
+
+                <div id="cartItems"></div>
+            </div>
+        </div> 
+    </nav>
+
+    <section class="products">
+        <h2>Best cars</h2>
+        <div id="productSection"></div>
+    </section>
+
+    <script src="./js/cart.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+img{
+    width: 100px;
+}
+form input{
+    height: 25px;
+    padding: 5px;
+}
+.container .conta{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    width: 150px;
+    margin: 30px 115px;
+    border-radius: 5px;
+}
+table{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(37, 36, 36);
+}
+thead tr{
+    color: white;
+    background-color: rgb(29, 27, 27);
+}
+tbody tr{
+    height: 30px;
+    color: white;
+    background-color: rgb(34, 31, 31);
+}
+
+tbody .nshvac{
+    background-color: rgb(124, 109, 109);
+}
+tbody tr:hover{
+    
+    background-color: rgb(146, 135, 135);
+}
+tbody tr td{
+    
+    padding: 5px;
+}
+tbody tr #edit{
+    background-color: rgb(55, 84, 211);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+tbody tr #remove{
+    background-color: red;
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+.container table thead tr th{ 
+    padding: 10px 0;
+}
+#category{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-color:rgb(133, 133, 209);
+}
+.addCategoryButton{
+    width: 100%;
+    color: white;
+    background-color: rgb(114, 34, 34);
+    margin: 10px 0;
+}
+.container form{
+    background-color: aliceblue;
+    margin: 30px auto;
+    padding: 10px;
+    width: 60%;
+}
+#button{
+    width: 100%;
+    color: white;
+    background-color: black;
+    margin: 10px 0;
+}
+#login{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-color:rgb(213, 213, 233);
+}
+
+#password{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-color:rgb(213, 213, 233);
+}
+#description{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-color:rgb(213, 213, 233);
+}
+#price{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-color:rgb(213, 213, 233);
+}
+#title{
+    width: 100%;
+    height: 30px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border-color:rgb(213, 213, 233);
+}
+#description{
+    padding: 5px;
+    height: 50px;
+}
+#image{
+    width: 100%;
+}
+.addProductButton{
+    width: 100%;
+    color: white;
+    background-color: black;
+    margin: 10px 0;
+}
+.productimagediv{
+    display: flex;
+    gap: 10px;
+}
+#img{
+    border-radius: 5px;
+}
